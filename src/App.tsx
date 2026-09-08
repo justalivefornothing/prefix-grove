@@ -26,7 +26,7 @@ const ANIMATE_MAX = 600
 /** Initial search state from the URL, so a search can be shared as a link (?q=ca&mode=fuzzy&d=2). */
 function readUrlState(): { query: string; mode: Mode; budget: number } {
   const p = new URLSearchParams(window.location.search)
-  const d = Number(p.get('d'))
+  const d = Number(p.get('d') ?? 1)
   return {
     query: p.get('q') ?? '',
     mode: p.get('mode') === 'fuzzy' ? 'fuzzy' : 'prefix',
