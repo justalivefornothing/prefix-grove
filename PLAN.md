@@ -50,4 +50,4 @@ version + compress flag and memoised.
 - [x] Fuzzy mode with pruned branches, inspector, compress toggle
 - [x] Word loader with grow-in animation, stats bar
 - [x] Build, smoke screenshot, polish
-- [ ] README, publish private repo
+- [x] README, publish private repo
