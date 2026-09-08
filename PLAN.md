@@ -43,11 +43,11 @@ version + compress flag and memoised.
 
 ## Milestones
 
-- [ ] Plan, license, git init
-- [ ] Scaffold vite react-ts + tailwind + vitest
-- [ ] Trie core + fuzzy + tests green
-- [ ] Layout + SVG grove rendering, highlight path, chips
-- [ ] Fuzzy mode with pruned branches, inspector, compress toggle
-- [ ] Word loader with grow-in animation, stats bar
-- [ ] Build, smoke screenshot, polish
+- [x] Plan, license, git init
+- [x] Scaffold vite react-ts + tailwind + vitest
+- [x] Trie core + fuzzy + tests green
+- [x] Layout + SVG grove rendering, highlight path, chips
+- [x] Fuzzy mode with pruned branches, inspector, compress toggle
+- [x] Word loader with grow-in animation, stats bar
+- [x] Build, smoke screenshot, polish
 - [ ] README, publish private repo
