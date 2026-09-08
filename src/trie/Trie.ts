@@ -150,6 +150,11 @@ export class Trie {
     for (const child of from.children.values()) yield* this.walk(child)
   }
 
+  /** Next id that will be handed out; nodes with id >= a saved cursor were created after it. */
+  idCursor(): number {
+    return this.nextId
+  }
+
   /** Number of nodes excluding the root. */
   nodeCount(): number {
     return this.nodes
