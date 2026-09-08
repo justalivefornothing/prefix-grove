@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+@import '@fontsource/fraunces/500.css';
+@import '@fontsource/fraunces/600.css';
+@import '@fontsource/fraunces/500-italic.css';
+@import '@fontsource-variable/nunito';
+
+@theme {
+  --font-serif: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-sans: 'Nunito Variable', 'Segoe UI', system-ui, sans-serif;
+
+  --color-linen: #f4efe6;
+  --color-linen-deep: #ebe3d5;
+  --color-parchment: #fbf8f2;
+  --color-soil: #5b4634;
+  --color-soil-deep: #3f3125;
+  --color-bark: #7a6650;
+  --color-moss: #5c7a4c;
+  --color-moss-deep: #3f5a33;
+  --color-sage: #8fb26f;
+  --color-sage-soft: #c6d9b2;
+  --color-chartreuse: #b9d64a;
+  --color-chartreuse-deep: #8fae1f;
+  --color-clay: #c4693f;
+  --color-ink: #2b2a26;
+  --color-ink-soft: #6b665c;
+}
+
+html {
+  background: var(--color-linen);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+}
